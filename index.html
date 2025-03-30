@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meba Anemaw's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Meba Anemaw</h1>
+      <div class="navbar">
+        <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hi, I'm Meba! A software engineer in the making—exploring tech, learning, and building cool things. Check out my work!</p>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>Get to Know Me</h2>
+      <p>Meba Anemaw is a product manager, UI designer, and data analyst with a
+        strong passion for leveraging technology to solve real-world problems.
+        Currently studying at ALX, they are focused on gaining expertise in cloud
+        computing (AWS), customer relationship management (Salesforce), and data
+        science. With an interest in creating user-centric solutions and optimizing
+        business processes, they aspire to work on projects that have a lasting social
+        impact, particularly in areas like sustainability, education, and healthcare. </p>
+      
+    </div>
+    
+    <!-- Video Section (Directly added video element) -->
+    <div class="video-section">
+        <h3>Watch My Pitch</h3>
+        <video controls width="560" height="315">
+            <source src="your-video-file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <h2>My Portfolio</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>A personal website showcasing design skills, built with HTML, CSS, and a touch of JavaScript for interactivity. Focused on clean UI, responsiveness, and smooth animations.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>A one-page website designed for a fictional event, incorporating modern design principles, engaging typography, and structured layouts using CSS Grid and Flexbox.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>A visually appealing static website for a fictional restaurant, including a menu section, contact form, and gallery, all built with HTML, CSS, and basic JavaScript for user interactions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="contact-container">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or want to get in touch, feel free to reach out!</p>
+  
+      <!-- Contact Form -->
+      <form action="backend-script.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+  
+        <button type="submit" class="contact-button">Send Message</button>
+      </form>
+    </div>
+    <div class="container">
+      <p>&copy; 2025 Meba Anemaw | All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+</html>
